@@ -92,11 +92,20 @@ changyan_conf: false
 disqus: false
 
 #5、Gitment
-gitment_owner: "wustzhaohui"      #你的 GitHub ID
-gitment_repo: 'wustzhaohui.github.io'          #存储评论的 repo
+gitment_owner:      #你的 GitHub ID
+gitment_repo:           #存储评论的 repo
 gitment_oauth:
-  client_id: 'f1331ffb05f653edd27f'           #client ID
-  client_secret: '5b532ac1738cef6e23ed091949d57921117060f9'       #client secret
+  client_id:            #client ID
+  client_secret:       #client secret
+
+gitalk:
+  enable:  true
+  githubID:  'wustzhaohui'   
+  repo:  'mycomments'
+  ClientID:  'f1331ffb05f653edd27f'
+  ClientSecret:  '5b532ac1738cef6e23ed091949d57921117060f9'
+  adminUser:  'wustzhaohui'
+  distractionFreeMode: true
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
