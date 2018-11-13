@@ -7,10 +7,10 @@ menu:
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/wustzhaohui/wustzhaohui.github.io"
+  # weibo: "#"
+  # rss: "#"
+  # zhihu: "#"
   # qq: "#"
   #weixin: "#"
   #jianshu: "#"
@@ -18,7 +18,7 @@ subnav:
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
+  mail: "mailto:little_hui@foxmail.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -69,7 +69,7 @@ google_analytics: 'UA-128620909-1'
 favicon: /favicon.png
 
 #你的头像url
-avatar: /assets/head.jpg
+avatar: /assets/person.jpg
 
 #是否开启分享
 share_jia: true
@@ -133,4 +133,4 @@ friends:
   Vue.js: https://cn.vuejs.org/
   Java: https://www.w3cschool.cn/java/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 学习这颗处方药得自己开</br>不能停
