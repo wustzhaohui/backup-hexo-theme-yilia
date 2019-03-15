@@ -3,7 +3,6 @@
 @import "./grid";
 @import "./left";
 @import "./scroll";
-@import "./highlight";
 @import "./tags";
 @import "./tags-cloud";
 @import "./social";
@@ -20,6 +19,30 @@
 @import "./tooltip";
 @import "./footer";
 @media screen and (max-width: 800px) {
-  @import "./mobile";
-  @import "./mobile-slider";
+    @import "./mobile";
+    @import "./mobile-slider";
+}
+
+
+/*解决prettyify在yilia主题下面行号显示问题*/
+
+
+/*代码自动换行
+ 不要设置这个，要不然移动端代码会自动换行
+ */
+
+pre {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L5,
+li.L6,
+li.L7,
+li.L8 {
+    list-style-type: decimal !important;
 }
