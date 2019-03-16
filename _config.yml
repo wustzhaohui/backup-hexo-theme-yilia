@@ -46,9 +46,9 @@ open_in_new: false
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 2
 # 打赏wording
-reward_wording: '多谢各位大佬赏口饭吃'
+reward_wording: ''
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: /assets/alipay.jpg
+alipay: /assets/alipayQrcode.jpeg
 # 微信二维码图片地址
 weixin: 
 
@@ -133,4 +133,4 @@ friends:
   Vue.js: https://cn.vuejs.org/
   Java: https://www.w3cschool.cn/java/
 
-aboutme: 学习这颗处方药得自己开</br>不能停
+aboutme: 一点点加一点点就是很多点
